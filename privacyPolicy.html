@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>DRIVELEASE</title>
+</head>
+<body>
+    <nav id="navbar" class="w-[var(--baseWidth)] h-[60px] flex flex-row flex-nowrap justify-between items-center max-[767px]:w-[400px] min-[768px]:max-[991px]:w-[768px] min-[992px]:max-[1199px]:w-[992px]">
+</nav>
+    <header id="header" class="
+        relative flex w-full h-[400px]
+        flex-row items-center justify-center
+        bg-[#081321]
+        bg-[url('../../img/header.png')]
+        bg-no-repeat
+        bg-position-[calc(50%+200px)_center]
+        bg-size-[min(100%,1800px)_auto]
+        max-[1199px]:bg-size-[auto]
+    ">
+</header>
+    <div id="whyUsWrapper" class="
+        flex h-[80px] w-full flex-row flex-nowrap
+        items-center justify-center
+        border-b-2 border-[#edf3ff]
+        max-[767px]:h-auto
+        max-[767px]:w-[400px]
+        min-[768px]:max-[991px]:w-[768px]
+        min-[992px]:max-[1199px]:w-[992px]
+    "></div>
+    <div id="bodyWrapper" class="bodyWrapper">
+        <div class="bodyContentWrapper">
+            <div id="privacyPolicyContent" class="
+                w-full
+                flex flex-col
+                justify-start items-start
+                gap-[20px]
+                p-[20px]
+                border-2 border-[#f5f5f5]
+                rounded-[10px]
+                [&>p]:text-[0.8rem]
+                "></div>
+        </div>
+        <div class="bodySidebar">
+            <div id="calculatorWrapper" class="
+                w-full min-h-[400px]
+                flex flex-col
+                justify-start items-center
+                gap-[15px]
+                border-2 border-[#f5f5f5]
+                rounded-[10px]
+                overflow-hidden
+                !pb-[20px]
+                "></div>
+            <div id="contactUsDash" class="
+                w-full
+                relative overflow-hidden
+                rounded-[7px]
+                !p-[20px]
+                bg-[linear-gradient(to_right,#081120_0%,#233040_100%)]
+                "></div>
+            <div id="whyUsDash" class="
+                w-full
+                flex flex-col
+                justify-start items-center
+                gap-[10px]
+                pb-[20px]
+                bg-[#f3f6fb]
+                rounded-[7px]
+                !pt-[20px]
+                !pb-[20px]
+                "></div>
+            <div id="newsLetterWrapper" class="
+                w-full
+                flex flex-col
+                justify-start items-center
+                border-2 border-[#f5f5f5]
+                rounded-[10px]
+                gap-5
+                !pt-[20px]
+                !pb-[20px]
+                "></div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script type="module" src="./js/modules.js"></script>
+    <script type="module" src="./js/privacyPolicyModules.js"></script>
+    <script src="./js/events.js"  defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
