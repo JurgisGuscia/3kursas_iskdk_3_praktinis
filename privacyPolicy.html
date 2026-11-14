@@ -6,7 +6,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>DRIVELEASE</title>
 </head>
-<body>
+<body class="w-screen flex overflow-x-hidden flex-col justify-start items-center bg-[#fcfefd]">
     <nav id="navbar" class="w-[var(--baseWidth)] h-[60px] flex flex-row flex-nowrap justify-between items-center max-[767px]:w-[400px] min-[768px]:max-[991px]:w-[768px] min-[992px]:max-[1199px]:w-[992px]">
 </nav>
     <header id="header" class="
@@ -29,8 +29,8 @@
         min-[768px]:max-[991px]:w-[768px]
         min-[992px]:max-[1199px]:w-[992px]
     "></div>
-    <div id="bodyWrapper" class="bodyWrapper">
-        <div class="bodyContentWrapper">
+    <div id="bodyWrapper" class="w-[400px] min-[768px]:w-[768px] min-[992px]:w-[992px] min-[1200px]:w-[1200px] !mt-[30px] !mb-[30px] flex justify-between items-center min-[992px]:items-start max-[991px]:flex-col max-[991px]:gap-[20px]">
+        <div class="w-full min-[992px]:w-[68%] flex flex-col justify-start items-center">
             <div id="privacyPolicyContent" class="
                 w-full
                 flex flex-col
@@ -42,7 +42,7 @@
                 [&>p]:text-[0.8rem]
                 "></div>
         </div>
-        <div class="bodySidebar">
+        <div class="w-full min-[992px]:w-[30%] flex flex-col justify-start items-center gap-[20px]">
             <div id="calculatorWrapper" class="
                 w-full min-h-[400px]
                 flex flex-col
@@ -83,7 +83,7 @@
                 "></div>
         </div>
     </div>
-    <footer id="footer"></footer>
+    <footer id="footer" class="bg-[#071424] w-full h-auto md:h-full mt-5 flex flex-row flex-nowrap justify-center items-start"></footer>
     <script type="module" src="./js/modules.js"></script>
     <script type="module" src="./js/privacyPolicyModules.js"></script>
     <script src="./js/events.js"  defer></script>
